@@ -3,16 +3,32 @@ package a6br.quizapp3;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 
-
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button beins;
     private Button bzwei;
     private Button bdrei;
     private Button bvier;
     private Button bfünf;
 
-    this.beins.setOnClickListener(this);
-    this.bzwei.setOnClickListener(this);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        this.beins.setOnClickListener(this);
+        this.bzwei.setOnClickListener(this);
+        this.bdrei.setOnClickListener(this);
+        this.bvier.setOnClickListener(this);
+        this.bfünf.setOnClickListener(this);
+
+        this.beins = (Button) this.findViewById(R.id.beins);
+        this.bzwei = (Button) this.findViewById(R.id.bzwei);
+        this.bdrei = (Button) this.findViewById(R.id.bdrei);
+        this.bvier = (Button) this.findViewById(R.id.bvier);
+        this.bfünf = (Button) this.findViewById(R.id.bfünf);
+    }
 }
