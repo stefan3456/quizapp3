@@ -59,4 +59,12 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="203dp"
+        android:layout_height="176dp"
+        android:text="Quizapp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="66dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
