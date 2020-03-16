@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.bvier = (Button) this.findViewById(R.id.bvier);
         this.bfünf = (Button) this.findViewById(R.id.bfünf);
     }
+
+    @Override
+    public void onClick(View view) {
+
+    }
 }
