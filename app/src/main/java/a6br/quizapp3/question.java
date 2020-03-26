@@ -59,7 +59,8 @@ public class question {
         this.category = category;
     }
 
-    public question(String questionText, String wrongAnswerOne, String wrongAnswerTwo, String wrongAnswerThree, String rightAnswer, String category) {
+    public question(Integer questionId, String questionText, String wrongAnswerOne, String wrongAnswerTwo, String wrongAnswerThree, String rightAnswer, String category) {
+        this.id = questionId;
         this.questionText = questionText;
         this.wrongAnswerOne = wrongAnswerOne;
         this.wrongAnswerTwo = wrongAnswerTwo;
@@ -68,5 +69,3 @@ public class question {
         this.category = category;
     }
 }
-
-
