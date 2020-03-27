@@ -19,17 +19,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.beins.setOnClickListener(this);
-        this.bzwei.setOnClickListener(this);
-        this.bdrei.setOnClickListener(this);
-        this.bvier.setOnClickListener(this);
-        this.bfünf.setOnClickListener(this);
-
         this.beins = (Button) this.findViewById(R.id.beins);
         this.bzwei = (Button) this.findViewById(R.id.bzwei);
         this.bdrei = (Button) this.findViewById(R.id.bdrei);
         this.bvier = (Button) this.findViewById(R.id.bvier);
         this.bfünf = (Button) this.findViewById(R.id.bfünf);
+
+        this.beins.setOnClickListener(this);
+        this.bzwei.setOnClickListener(this);
+        this.bdrei.setOnClickListener(this);
+        this.bvier.setOnClickListener(this);
+        this.bfünf.setOnClickListener(this);
     }
 
     @Override
