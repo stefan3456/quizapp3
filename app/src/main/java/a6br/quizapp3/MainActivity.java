@@ -5,28 +5,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
-    private Button bone;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.bone = (Button) this.findViewById(R.id.bone);
-        this.bone.setOnClickListener(this);}
+        Button bOne = findViewById(R.id.bOne);
+        Button bTwo = findViewById(R.id.bTwo);
+        Button bThree = findViewById(R.id.bThree);
+        Button bFour = findViewById(R.id.bFour);
 
-        //Intent intent = new Intent(this, AnotherActivity.class);
-        //startActivity(intent);
-
+        bOne.setOnClickListener(this);
+        bTwo.setOnClickListener(this);
+        bThree.setOnClickListener(this);
+        bFour.setOnClickListener(this);
+    }
 
     @Override
     public void onClick(View view) {
-
 
     }
 }
