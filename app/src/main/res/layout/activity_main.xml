@@ -28,31 +28,31 @@
             android:id="@+id/beins"
             android:layout_width="400dp"
             android:layout_height="100dp"
-            android:text="Button" />
+            android:text="Physik" />
 
         <Button
             android:id="@+id/bzwei"
             android:layout_width="400dp"
             android:layout_height="100dp"
-            android:text="Button" />
+            android:text="Geschichte" />
 
         <Button
             android:id="@+id/bdrei"
             android:layout_width="400dp"
             android:layout_height="100dp"
-            android:text="Button" />
+            android:text="Chemie" />
 
         <Button
             android:id="@+id/bvier"
             android:layout_width="400dp"
             android:layout_height="100dp"
-            android:text="Button" />
+            android:text="Sport" />
 
         <Button
             android:id="@+id/bfünf"
             android:layout_width="400dp"
             android:layout_height="100dp"
-            android:text="Button" />
+            android:text="Biologie" />
 
     </LinearLayout>
 
