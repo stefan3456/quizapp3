@@ -6,37 +6,27 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button beins;
-    private Button bzwei;
-    private Button bdrei;
-    private Button bvier;
-    private Button bfünf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.beins = (Button) this.findViewById(R.id.beins);
-        this.bzwei = (Button) this.findViewById(R.id.bzwei);
-        this.bdrei = (Button) this.findViewById(R.id.bdrei);
-        this.bvier = (Button) this.findViewById(R.id.bvier);
-        this.bfünf = (Button) this.findViewById(R.id.bfünf);
+        Button bOne = findViewById(R.id.bOne);
+        Button bTwo = findViewById(R.id.bTwo);
+        Button bThree = findViewById(R.id.bThree);
+        Button bFour = findViewById(R.id.bFour);
 
-        this.beins.setOnClickListener(this);
-        this.bzwei.setOnClickListener(this);
-        this.bdrei.setOnClickListener(this);
-        this.bvier.setOnClickListener(this);
-        this.bfünf.setOnClickListener(this);
+        bOne.setOnClickListener(this);
+        bTwo.setOnClickListener(this);
+        bThree.setOnClickListener(this);
+        bFour.setOnClickListener(this);
     }
-
-    // Intent intent = new Intent(this, AnotherActivity.class);
-    //startActivity(intent);
 
     @Override
     public void onClick(View view) {
 
     }
 }
+
